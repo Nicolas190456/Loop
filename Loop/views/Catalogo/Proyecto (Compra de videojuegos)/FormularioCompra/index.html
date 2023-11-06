@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transacción</title>
+    <link rel="stylesheet" href="./css/stylesform.css">
+</head>
+
+<body>
+    <img id="control" src="./img/luis-villasmil-ITFwHdPEED0-unsplash.jpg" alt="control">
+    <h1 class="title">Realiza tu compra</h1><br>
+    <h2 class="subtitle">Compra el juego de tu sueños</h2>
+    <br>
+    <form style="padding: 0.05in;" id="form">
+    <div class="container">
+        <label id="inputTitle" for="inputNames">
+            Nombre y Apellidos del titular
+        </label>
+        <input type="text" class="form-control" id="inputNames" placeholder="Introduzca su nombre" required>
+    </div>  
+    <br>
+    <div class="container">
+        <label id="inputTitle" for="inputPay">
+            Medio de pago
+        </label>
+        <h3 id="dtext">Seleccione un medio de pago</h3>
+        <label>
+            <input type="radio" name="pago" class="form-control" id="inputPay" value="daviplata" required>
+            <img id="image" src="./img/Logo_Daviplata.png">
+        </label>
+        <label>
+            <input type="radio" name="pago" class="form-control" id="inputPay" value="nequi" required>
+            <img id="image" src="./img/Logo_Nequi.png">
+        </label>
+    </div>
+    <br>
+    <div class="container">
+        <label id="inputTitle" for="inputPassword">
+            Número de telefono
+        </label>
+        <input type="text" class="form-control" id="inputPassword" placeholder="Introduzca los numeros" required>
+    </div><br>
+    <div class="container">
+        <label id="inputTitle" for="inputEmail">
+            Correo electrónico
+        </label>
+        <input type="text" class="form-control" id="inputEmail" placeholder="Introduzca su correo" required>
+    </div>
+    <br>
+    <div class="container">
+        <label id="inputTitle" for="inputCountry">
+            Ciudad de residencia
+        </label>
+        <select id="inputCountry" class="form-control" required>
+            <option selected>Selecciona</option>
+            <option>Bogotá</option>
+            <option>Medellín</option>
+            <option>Calí</option>
+        </select>
+    </div><br>
+    
+    <div class="container">
+        <input type="checkbox" class="form-control" id="inputTerms" required>
+        <label for="inputTerms">
+            Acepto los<a id="link" target="_blank" href="./views/terms.html">terminos y condiciones</a>.
+        </label>
+    </div>
+    <br>
+    <div onclick="prueba()" class="container">
+        <button type="button" onclick="location.href='./views/compra.html'" id="inputSubmit" href="./views/compra.html">Comprar</button>
+    </div>
+</form>
+    <footer>
+    </footer>
+    <br>
+    <script src="./scripts/validation.js"></script>
+</body>
+</html>

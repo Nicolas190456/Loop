@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    
+}
+body{
+    background: linear-gradient(90deg, rgba(153,71,201,1) 0%, rgba(54,15,56,1) 0%, rgba(100,75,214,1) 100%);
+}
+header{
+    text-align: left;
+}
+header .home{
+    margin: 2%;
+}
+#title{
+    padding: 15px 0 30px;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    font-size: 22px;
+}
+#reclamo{
+    text-align: center;
+    margin-top: 50px;
+    width: 400px;
+    height: 500px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 22px;
+    background-color: 
+    rgb(21, 21, 21);  
+    border: 5px;
+    border-color: rgb(160, 47, 212);
+    top: 50%;
+    left: 50%;
+    padding: 20px;  
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+#subtitle{
+    color: white;
+    text-align: left;
+}
+#reclamo2{
+    float: left;    
+    background: rgb(21, 21, 21);
+    border-color: white;
+    color: white;
+    width: 300px;
+}
+#protesta{
+    width: 300px;
+    height: 150px;
+}
+.btns {
+    margin: 7%;
+    width: 200px;
+    line-height: 33px;
+    border-radius: 20px;
+    text-decoration: none;
+    border-color: black;
+    color: rgb(255, 255, 255);
+    margin: 7%;
+    text-align: center;
+    background: linear-gradient(250deg, #9042BD , #9947C9 , #381A4A , #644BD6 );
+}
+.btns:hover{
+    border: 2px solid #ffff;
+}

@@ -1,0 +1,108 @@
+
+@media screen and (min-width: 400px) and (min-height: 350px){ 
+body {   
+background: rgb(153,71,201);
+background: linear-gradient(90deg, rgba(153,71,201,1) 0%, rgba(54,15,56,1) 0%, rgba(100,75,214,1) 100%);}
+
+#loginBox {
+    width: 400px;
+    height: 440px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 22px;
+    background-color: rgb(21, 21, 21);  
+    border: 5px;
+    border-color: rgb(160, 47, 212);
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    padding: 20px;  
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+#loginBox img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+#loginBox h1 {
+    margin: 0px;
+    padding: 15px 0 30px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 22px;
+}
+
+#loginBox label {
+    margin: 0px;
+    padding: 0px; 
+    font-size: 22px;
+    color: rgb(255, 255, 255); 
+    font-weight: bold;
+    display: block;
+}
+
+#loginBox input[type="text"], 
+#loginBox input[type="password"],
+#loginBox input[type="email"] {
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255); 
+    background: transparent;
+    outline: none;
+    height: 40px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+}
+
+#loginBox input[type="submit"] {
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 45px;
+    background-color: rgb(160, 47, 212);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+#loginBox a {
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgb(255, 255, 255);
+}
+
+#loginBox input[type="submit"]:hover {
+    font-size: 18px;
+    color: #fff;
+    background-color: rgb(174, 0, 255); 
+}
+
+#loginBox a:hover {
+    color: rgb(160, 47, 212);
+}
+
+#loginBox input[type="text"]:hover {
+    border-bottom: 1px solid rgb(160, 47, 212);
+    color: rgb(160, 47, 212);
+}
+
+#loginBox input[type="email"]:hover {
+    border-bottom: 1px solid rgb(160, 47, 212);
+    color: rgb(160, 47, 212);
+}
+
+#loginBox input[type="password"]:hover {
+    border-bottom: 1px solid rgb(160, 47, 212);
+    color: rgb(160, 47, 212);
+}
+
+#loginBox:hover{
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(160, 47, 212);
+}
+}

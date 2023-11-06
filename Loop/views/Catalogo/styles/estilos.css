@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+@media screen and (min-width: 400px) and (min-height: 350px){
+header{
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: #0E0D0F;
+    border: 4px solid #0E0D0F;
+}
+
+header h1 {
+    padding: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#botonloop {
+    padding-top: 7px;
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+#botonhome {
+    padding-top: 7px;
+    width: 60px;
+    height: 60px;
+    float: right;
+}
+
+body{
+    background: rgb(153,71,201);
+    background: linear-gradient(90deg, rgba(153,71,201,1) 0%, rgba(54,15,56,1) 0%, rgba(100,75,214,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contenido_parent{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  flex-wrap:wrap;
+}
+.contenido{
+    background-color: #0E0D0F;
+    height: 510px;
+    width: 350px;
+    box-shadow:0 0 7px whitesmoke;
+    margin: 30px 30px;
+    border: 4px solid #0E0D0F;
+    border-radius: 20px;
+}
+.contenido .tarjeta{
+    height: 200px;
+    width: 100%;
+    margin-bottom: 170px;
+    border-radius: 20px;
+
+}
+.tarjeta img{
+    margin: auto;
+    display: block;
+    border-radius: 20px;
+}
+
+.contenido .fifa img{
+    height: 330px;
+    width: 300px;
+}
+.contenido .fifa{
+     background-color: thistle;
+}
+
+.contenido .fall_guys{
+    background-color: #60d9f7;
+}
+
+.contenido .fall_guys img{
+    height: 330px;
+    width: 300px;
+}
+
+.contenido .gta5{
+    background-color:#ccb757ec;
+}
+.contenido .gta5 img{
+    height: 330px;
+    width: 300px;
+}
+
+.contenido .ctr{
+    background-color:#d85407d2;
+}
+.contenido .ctr img{
+    height: 330px;
+    width: 300px;
+}
+
+.contenido .gow{
+    background-color:#7bb0d4;
+}
+.contenido .gow img{
+    height: 330px;
+    width: 300px;
+}
+
+.contenido .mortal_kombat{
+    background-color:#ffc934;
+}
+.contenido .mortal_kombat img{
+    height: 330px;
+    width: 300px;
+}
+
+.contenido .spider-man{
+    background-color:#B11313;
+}
+.contenido .spider-man img{
+    height: 330px;
+    width: 300px;
+}
+.contenido .minecraft{
+    background-color:#3dac33;
+}
+.contenido .minecraft img{
+    height: 330px;
+    width: 300px;
+}
+a{
+    display: block;
+    width: auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 10px;
+    margin: auto;
+    padding: auto;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+
+}
+}
+
